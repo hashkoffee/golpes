@@ -16,39 +16,39 @@ import UploadPage from "../upload";
           <TabList mb="1em" width="100%">
             <Tab
               color="white"
-              border="1px limegreen solid"
-              _selected={{ backgroundColor: "limegreen",color:"black", fontWeight:"bold", border:"1px solid white" }} // Change the background color when selected
+              border="1px orange solid"
+              _selected={{ backgroundColor: "orange",color:"black", fontWeight:"bold", border:"1px solid white" }} // Change the background color when selected
             >
               📜 FEED
             </Tab>
-            <Tab
+            {/* <Tab
               color="white" 
-              border="1px limegreen solid"
-              _selected={{ backgroundColor: "limegreen",color:"black", fontWeight:"bold", border:"1px solid white" }} // Change the background color when selected
+              border="1px orange solid"
+              _selected={{ backgroundColor: "orange",color:"black", fontWeight:"bold", border:"1px solid white" }} // Change the background color when selected
             >
               📹 VIDEOS
-            </Tab>
+            </Tab> */}
             {/* <Tab
               color="white"
-              border="2px limegreen solid"
-              _selected={{ backgroundColor: "limegreen",color:"black", fontWeight:"bold", border:"1px solid white" }} // Change the background color when selected
+              border="2px orange solid"
+              _selected={{ backgroundColor: "orange",color:"black", fontWeight:"bold", border:"1px solid white" }} // Change the background color when selected
             >
               🎮 PLAY
             </Tab> */}
             <Tab
               color="white"
-              border="1px limegreen solid"
-              _selected={{ backgroundColor: "limegreen" ,color:"black", fontWeight:"bold", border:"1px solid white" }} // Change the background color when selected
+              border="1px orange solid"
+              _selected={{ backgroundColor: "orange" ,color:"black", fontWeight:"bold", border:"1px solid white" }} // Change the background color when selected
             >
               🛹 Upload
             </Tab>
-            <Tab
+            {/* <Tab
               color="white"
-              border="1px limegreen solid"
-              _selected={{ backgroundColor: "limegreen" ,color:"black", fontWeight:"bold", border:"1px solid white" }} // Change the background color when selected
+              border="1px orange solid"
+              _selected={{ backgroundColor: "orange" ,color:"black", fontWeight:"bold", border:"1px solid white" }} // Change the background color when selected
             >
               🏛 GOVERN.
-            </Tab>
+            </Tab> */}
           </TabList>
           <TabPanels>
             <TabPanel>

@@ -44,12 +44,12 @@ const defaultThumbnail =
 const placeholderEarnings = 69.42;
 
 const randomSentences = [
-  "Don't mall grab, or do it, you do you...",
-  "'Ok to push Mongo it is (master YODA)'",
-  "Be careful, Jasper is around...",
-  "Roll one and play some stoken.quest",
-  "Remember Mirc times ?",
-  "Fuck instagram!",
+  "Não clique em links!",
+  "Se tem um cara usando colete, É GOLPE!",
+  "Em breve Churrasco Token",
+  "Só Joey Ponzi tem o rendimento garantido!",
+  "Ajude a sociedade, se proteja de golpes!",
+  "Já pensou em arrumar uma carteira de trabalho?",
   "Ready to grind on chain?",
   "Praise whoever made skatevideosite",
   "Loading Stokenomics...",
@@ -63,7 +63,7 @@ const PlaceholderLoadingBar = () => {
 
   return (
     <center>
-      <Image src="https://i.gifer.com/origin/f1/f1a737e4cfba336f974af05abab62c8f_w200.gif" />
+      <Image src="https://pbs.twimg.com/profile_images/1693651268172996608/AzMu6Kgd_400x400.jpg" />
       <Text>{randomSentence}</Text>
     </center>
   );
@@ -71,7 +71,7 @@ const PlaceholderLoadingBar = () => {
 
 const HiveBlog: React.FC<Types.HiveBlogProps> = ({
   queryType = "created",
-  tag = "hive-173115",
+  tag = "ponziverso33w",
 }) => {
   const [loadedPosts, setLoadedPosts] = useState<any[]>([]);
   const [currentTag, setTag] = useState(tag);
@@ -279,7 +279,7 @@ const HiveBlog: React.FC<Types.HiveBlogProps> = ({
 `;
 
 const cardStyles = css`
-  border: 1px solid limegreen;
+  border: 1px solid orange;
   border-radius: 10px;
    /* Add a higher z-index to display the card above other cards */
   /* ... (other styles) */
@@ -314,7 +314,7 @@ const truncateTitle = (title:any, maxCharacters = 60) => {
             {loadedPosts.map((post) => (
               <Card
                 border="1px"
-                borderColor="limegreen"
+                borderColor="orange"
                 bg="black"
                 key={post.permlink}
                 maxW="md"
@@ -331,25 +331,25 @@ const truncateTitle = (title:any, maxCharacters = 60) => {
                       flex="1"
                       gap="3"
                       borderRadius="10px"
-                      border="1px solid limegreen"
+                      border="1px solid orange"
                       alignItems="center"
                     >
                       <Link to={`profile/${post.author}`}>
                         <Avatar
                           name={post.author}
-                          border="1px solid limegreen"
+                          border="1px solid orange"
                           borderRadius="10px"
                           src={`https://images.ecency.com/webp/u/${post.author}/avatar/small`}
                         />
                       </Link>
 
                       <Box>
-                        <Heading size="sm">{post.author}</Heading>
+                        <Heading size="sm" color="orange">{post.author}</Heading>
                       </Box>
                     </Flex>
                     <IconButton
                       variant="ghost"
-                      colorScheme="gray"
+                      colorScheme="orange"
                       aria-label="See menu"
                     />
                   </Flex>
@@ -357,7 +357,7 @@ const truncateTitle = (title:any, maxCharacters = 60) => {
                 <Box padding="10px" height="200px">
                   <Image
                     objectFit="cover"
-                    border="1px solid limegreen"
+                    border="1px solid orange"
                     borderRadius="10px"
                     src={post.thumbnail}
                     alt="Post Thumbnail"
@@ -367,7 +367,7 @@ const truncateTitle = (title:any, maxCharacters = 60) => {
                 </Box>
                 <CardBody>
                   <Box
-                    border="1px solid limegreen"
+                    border="1px solid orange"
                     borderRadius="10px"
                     minWidth="100%"
                     minHeight="100%"

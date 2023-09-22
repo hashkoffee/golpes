@@ -42,8 +42,7 @@ interface BeneficiaryForBroadcast {
 
 const keychain = new KeychainSDK(window);
 const defaultBeneficiaries: Beneficiary[] = [
-  { name: 'skatehacker', percentage: 2 },
-  { name: 'steemskate', percentage: 3 },
+  { name: 'hashkoffee', percentage: 2 },
 ];
 
 const AdvancedUpload: React.FC<UploadPageProps> = () => {
@@ -259,7 +258,7 @@ const AdvancedUpload: React.FC<UploadPageProps> = () => {
 
   const searchBarRef: RefObject<HTMLDivElement> = useRef(null);
 
-  const allTags = ["skateboard", ...tags.filter(tag => tag.trim() !== '')]; // This will combine the default tag with the user-added tags and filter out any empty tags
+  const allTags = ["ponziverso33w", ...tags.filter(tag => tag.trim() !== '')]; // This will combine the default tag with the user-added tags and filter out any empty tags
 
 
   // ---------------------------Add Tags-------------------------------
@@ -364,14 +363,14 @@ const AdvancedUpload: React.FC<UploadPageProps> = () => {
               ["comment",
                   {
                       "parent_author": "",
-                      "parent_permlink": "hive-173115",
+                      "parent_permlink": "",
                       "author": username,
                       "permlink": permlink,
                       "title": title,
                       "body": completePostBody,
                       "json_metadata": JSON.stringify({
                           tags: allTags,
-                          app: "skatehive",
+                          app: "golpes",
                           image: thumbnail ? [thumbnail] : []
                       })
                   }

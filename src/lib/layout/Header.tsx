@@ -222,7 +222,7 @@ const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
       justifyContent="space-between"
       p={6}
       bg="black"
-      border="1px solid limegreen"
+      border="1px solid orange"
       position="relative"
       borderRadius="10px"
     >
@@ -232,8 +232,8 @@ const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
       <MenuButton
           as={Button}
           backgroundColor="black"
-          border="limegreen 1px solid"
-          color="limegreen"
+          border="orange 1px solid"
+          color="orange"
           size="l"
           css={{
             animation: `${glow} 2s infinite alternate , ${moveUpAndDown} 3s infinite` ,
@@ -243,13 +243,13 @@ const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
           }}
         >
           <Image
-            src="https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fipfs.decentralized-content.com%2Fipfs%2Fbafkreidxxr42k6sff4ppctl4l3xvh52rf2m7vzdrjmyqhoijveevwafkau&w=3840&q=75"
+            src="https://cdn.sonicadigital.com.br/0x098c926e561c5d4ac2113615a1c3589f85a6d9b7/storage/header/640/original-64caa930ed8fd.png"
             alt="Dropdown Image"
             boxSize="48px" // Adjust the size as needed
             borderRadius="10px"
           />
         </MenuButton>
-        <MenuList border="1px solid limegreen" backgroundColor="black" color="white">
+        <MenuList border="1px solid orange" backgroundColor="black" color="white">
           <Link to="https://snapshot.org/#/skatehive.eth" style={{ textDecoration: 'none' }}>
             <MenuItem
               _hover={{ backgroundColor: 'white', color: 'black' }} // Invert colors on hover
@@ -306,7 +306,7 @@ const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
       <ChakraLink as={RouterLink} to="/wallet">
       <Button
         backgroundColor="black"
-        border="limegreen 2px solid"
+        border="orange 2px solid"
         color="orange"
 
 
@@ -329,7 +329,7 @@ const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
         size={tabSize}
         mb={6}
         css={{
-          border: "2px solid limegreen",
+          border: "2px solid orange",
           borderRadius: "10px",
           overflow: "hidden",
         }}
